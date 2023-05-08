@@ -1,0 +1,273 @@
+
+/*CSS Variables*/
+:root {
+  --primary-color: #9c5526;
+  --secondary-color: #54331d;
+  --white-color: #ede7e3;
+  --hover-color: #ec823c;
+  --black-color: #353331;
+  --black75: hsla(24, 4%, 20%, 0.75);
+}
+
+/*Global Styles*/
+h1 {
+  font-size: 2.7rem;
+}
+
+
+h3 {
+  font-size: 1.9rem;
+}
+
+
+h4 {
+  font-size: 1.6rem;
+}
+
+.small {
+  font-size: 1rem;
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 1.1rem;
+  color: var(--black-color);
+  line-height: 1.4;
+  background-image: url("../images/coffee.jpeg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+h1, h3,  h4{
+  font-family: 'Patua One', cursive;
+  color: var( --primary-color);
+  margin-bottom: 1.5rem;
+
+}
+
+
+/*Header*/
+
+header{
+
+  background-color: var(--secondary-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+h1 {
+
+  background-color: var(--white-color);
+  width: 250px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+
+
+}
+
+nav {
+
+  text-align: right;
+}
+
+nav ul li {
+
+  display: inline;
+  margin-right: 1rem;
+}
+
+a:link { 
+  text-decoration: none; 
+  color: var(--white-color);
+  font-size: 1.9rem;
+
+}
+
+a:hover { 
+  color: var(--hover-color); 
+
+}
+
+a:active { 
+  
+  color: var(--hover-color); 
+}
+
+
+
+/* main */
+
+main{
+
+    background-color: var(--white-color);
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0em;
+    padding-right: 0em;
+
+    
+}
+
+.content-wrapper{
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/* About section */
+#about{
+
+  margin-bottom: 1rem;
+
+
+}
+
+#about p{
+
+  max-width: 60ch;
+  margin-bottom: 0.5rem;
+}
+
+#about li {
+  list-style-type: none;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  padding-left: 1.5em;
+  background-position: 0 0.2em;
+}
+
+#menu h4{
+
+  text-align: center;
+}
+
+h4:first-child{
+
+  margin: 1rem;
+
+
+}
+
+
+
+
+
+
+
+/*Menu section*/
+
+#menu{
+
+  margin-bottom: 1rem;
+}
+
+.item p {
+  display: inline-block;
+
+}
+
+.title {
+  width: 75%;
+  text-align: left;
+}
+
+.price {
+  width: 25%;
+  text-align: right;
+}
+
+
+/*Reservation section*/
+
+form input, form textarea, form select {
+  
+
+  font: inherit;
+  color: var(--black-color);
+  
+}
+
+label{
+
+  display: block;
+  color: var(--black75);
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="datetime-local"], input[type="submit"], textarea {
+  
+  background-color: #d6ab8f;
+  border-style: none;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+input[type="submit"]{
+
+  font-size: 1.25 rem;
+  background-color: var( --primary-color);
+  color:  var(--white-color);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+#size{
+
+  background-color: #d6ab8f;
+  width: 100%;
+  margin-bottom: 0.5em;
+  border-style: none;
+  font: inherit;
+  color: var(--black-color);
+
+
+}
+input[type="submit"]:hover{
+
+  background-color: var(--secondary-color);
+  font: inherit;
+  color: var(--black-color);
+ 
+}
+
+
+/*footer*/
+
+footer{
+
+  background-color:  var(--secondary-color);
+  color: var( --white-color);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+ 
+}
