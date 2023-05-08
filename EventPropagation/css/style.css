@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 3rem;
+    color: white;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+    background-color: darkslategray;
+    margin: 2rem 2rem;
+    display: flex;
+
+}
+
+#box2 {
+    width: 150px;
+    height: 150px;
+    padding: 0.5rem;
+    background-color: darkgreen;
+    align-self: center;
+    display: flex;
+    
+}
+
+#box3 {
+    width: 100px;
+    height: 100px;
+    padding: 0.5rem;
+    background-color: darkgoldenrod;
+    align-self: center;
+}
